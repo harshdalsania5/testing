@@ -1,0 +1,91 @@
+<?php
+	for($i=0;$i<5;$i++)
+	{
+		for($j=0;$j<$i;$j++)
+		{
+			echo "h";
+		}
+		echo"<br>";
+	}
+?>
+<hr>
+<?php
+	for($i=0;$i<5;$i++)
+	{
+		for($j=0;$j<=$i;$j++)
+		{
+			echo"&nbsp;";
+		}
+		for($k=5;$k>$i;$k--)
+		{
+			echo"k";
+		}
+		for($j=5;$j>$i;$j--)
+		{
+			echo"k";
+		}
+		echo"<br>";
+	}
+?>
+<hr>
+<?php
+	for($i=0;$i<5;$i++)
+	{
+		for($j=5;$j>$i;$j--)
+		{
+			echo"&nbsp;";
+		}
+		for($k=0;$k<=$i;$k++)
+		{
+			echo"&nbsp;h";
+		}
+		/*for($k=0;$k<=$i;$k++)
+		{
+			echo"h";
+		}*/
+		echo"<br>";
+	}
+?>
+<hr>
+<?php
+	for($i=0;$i<5;$i++)
+	{
+		for($j=0;$j<5;$j++)
+		{
+			if($j=1&& $j=2&& $j=3 && $j=4 && $j=5)
+			{
+				echo"*";
+			}
+		}
+		echo"<br>";
+	}
+?>
+<?php
+	$i="2";
+	switch($i){
+		case "oo":
+			for($i=0;$i<5;$i++)
+			{
+				for($j=0;$j<=$i;$j++)
+				{
+					echo"+";
+				}
+				for($k=5;$k>$i;$k--)
+				{
+					echo"k";
+				}
+				for($j=5;$j>$i;$j--)
+				{
+					echo"k";
+				}
+				echo"<br>";
+			}
+			break;
+		case 2:
+			echo "hi 2";
+			break;
+		default:
+			echo "default";
+			break;
+	}
+?>
